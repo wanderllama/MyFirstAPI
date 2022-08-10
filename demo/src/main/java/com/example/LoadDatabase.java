@@ -18,6 +18,10 @@ public class LoadDatabase {
         return args -> {
             log.info("preloading " + repository.save(new Employee("Siam" , "Java instructor")));
             log.info("preloading " + repository.save(new Employee("Nadir" , "Soft Skills instructor")));
+            log.info("preloading " + repository.save(new Employee("Aysun" , "Selenium instructor")));
+            log.info("preloading " + repository.save(new Employee("Mehmet" , "Database instructor")));
+            log.info("preloading " + repository.save(new Employee("Murodil" , "API instructor")));
+            log.info("preloading " + repository.save(new Employee("Austin" , "Support for everything")));
             log.info("preloading " + repository.save(new Employee("James Wallace" , "SDET")));
         };
     }
